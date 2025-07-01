@@ -1,0 +1,226 @@
+body {
+  animation-name: tenger;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.nar {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 100%;
+  position: relative;
+  animation-name: ok;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  margin-left: 600px;
+}
+.clouda {
+  width: 100px;
+  height: 60px;
+  animation-name: ada;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  margin-left: -130px;
+}
+.cloudb {
+  width: 80px;
+  height: 60px;
+  margin-top: -20px;
+  animation-name: bada;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  margin-left: -130px;
+}
+.cloudc {
+  width: 120px;
+  height: 60px;
+  margin-top: -90px;
+  animation-name: cada;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  margin-left: -130px;
+}
+.cloudd {
+  width: 200px;
+  height: 70px;
+  margin-top: -10px;
+  animation-name: dada;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  margin-left: -130px;
+}
+.land {
+  width: 100vw;
+  height: 500px;
+  background-color: goldenrod;
+  z-index: 20;
+  position: absolute;
+  margin-top: -250px;
+  animation-name: land;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.olah {
+  width: 400px;
+  height: 400px;
+  background-color: gray;
+  transform: rotate(45deg);
+  margin-top: -375px;
+  margin-left: 300px;
+  z-index: 20;
+  position: absolute;
+  animation-name: ula;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.oleh {
+  width: 450px;
+  height: 450px;
+  background-color: lightgreen;
+  transform: rotate(45deg);
+  margin-top: 200px;
+  margin-left: 700px;
+  animation-name: ule;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.olih {
+  width: 470px;
+  height: 470px;
+  background-color: lightblue;
+  transform: rotate(45deg);
+  margin-top: -400px;
+  margin-left: 45px;
+  animation-name: uli;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes ok {
+  0% {
+    top: 0px;
+    background-color: yellow;
+  }
+  25% {
+    top: 300px;
+    background-color: orange;
+  }
+  50% {
+    top: 600px;
+    background-color: orangered;
+  }
+  75% {
+    top: 300px;
+    background-color: orange;
+  }
+  100% {
+    top: 0px;
+    background-color: yellow;
+  }
+}
+@keyframes ula {
+  0% {
+    background-color: grey;
+  }
+  25% {
+    background-color: darkslategrey;
+  }
+  50% {
+    background-color: black;
+  }
+  75% {
+    background-color: darkslategrey;
+  }
+  100% {
+    background-color: grey;
+  }
+}
+@keyframes land {
+  0% {
+    background-color: goldenrod;
+  }
+  50% {
+    background-color: grey;
+  }
+  100% {
+    background-color: goldenrod;
+  }
+}
+@keyframes ule {
+  0% {
+    background-color: lightgreen;
+  }
+  25% {
+    background-color: darkgreen;
+  }
+  50% {
+    background-color: black;
+  }
+  75% {
+    background-color: darkgreen;
+  }
+  100% {
+    background-color: lightgreen;
+  }
+}
+@keyframes uli {
+  0% {
+    background-color: lightblue;
+  }
+  25% {
+    background-color: darkblue;
+  }
+  50% {
+    background-color: black;
+  }
+  75% {
+    background-color: darkblue;
+  }
+  100% {
+    background-color: lightblue;
+  }
+}
+@keyframes ada {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(1300px);
+  }
+}
+@keyframes bada {
+  50% {
+    transform: translateX(1300px);
+  }
+}
+@keyframes cada {
+  50% {
+    transform: translateX(1300px);
+  }
+}
+@keyframes dada {
+  50% {
+    transform: translateX(1300px);
+  }
+}
+@keyframes tenger {
+  0% {
+    top: 0px;
+    background-color: rgb(9, 190, 250);
+  }
+  25% {
+    top: 300px;
+    background-color: rgb(26, 26, 237);
+  }
+  50% {
+    top: 600px;
+    background-color: rgb(246, 112, 35);
+  }
+  75% {
+    top: 300px;
+    background-color: rgb(26, 26, 237);
+  }
+  100% {
+    top: 0px;
+    background-color: rgb(9, 190, 250);
+  }
+}

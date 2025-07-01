@@ -1,0 +1,71 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 10px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    left: 0px;
+    top: 0px;
+    background-color: blue;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+    background-color: brown;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+    background-color: green;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+    background-color: yellow;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    background-color: black;
+  }
+}
+.cyrcle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border-radius: 100%;
+  position: relative;
+  animation-name: ok;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-left: 500px;
+}
+@keyframes ok {
+  0% {
+    left: 0px;
+    top: 0px;
+    background-color: blue;
+  }
+  50% {
+    left: 0px;
+    top: 300px;
+    background-color: brown;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    background-color: black;
+  }
+}
